@@ -59,13 +59,13 @@ console.log(url);
 
       <header className={`flex justify-around  flex-col md:flex-row ${detailPage == true ? 'relative bg-gray-400 transition-all bg-opacity-100' : isScrolled && 'bg-gray-200 transition-all ease-in-out delay-150 bg-opacity-95'}`}>
 
-        <div className="flex px-5 space-x-2 md:space-x-10 ">
+        <div className="flex mx-auto px-5 space-x-2 md:space-x-10 ">
           <a href='/'>
             <img src={logo} width={230} height={100} />
           </a>
         </div>
 
-        <div className="flex mt-5 md:flex md:mt-0 items-center space-x-2 text-xs font-bold text-blue-gray-800 ">
+        <div className="flex mt-5 mx-auto md:flex md:mt-0 items-center space-x-2 text-xs font-bold text-blue-gray-800 ">
 
 
           <a href='/'>
